@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="hidden md:ml-6 md:block">
             <div className="flex space-x-2">
               <Link
-                href="/index.html"
+                href="/"
                 className={`${pathname === '/' ? 'bg-black' : ''} text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
               >
                 Home

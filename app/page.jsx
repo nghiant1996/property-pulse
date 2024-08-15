@@ -1,10 +1,14 @@
 import Hero from '@/components/Hero';
+import HomeProperties from '@/components/HomeProperties';
 import InforBoxes from '@/components/InforBoxes';
-const HomePage = () => {
+
+
+const HomePage = async () => {
   return (
     <>
       <Hero />
-      <InforBoxes/> 
+      <InforBoxes />
+      <HomeProperties />
     </>
   )
 }
